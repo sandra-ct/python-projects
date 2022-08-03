@@ -60,7 +60,7 @@ def plot_proteins(proteins):
     plt.xticks(bars)
     plt.xlabel("Amino Acid Symbols")
     plt.ylabel("Number Found in Sequence")
-    plt.title("Amino Acid / Codon Amount in Sequence")
+    plt.title("Amino Acids / Codons in Sequence")
     plt.show()
     
     print(all_val)
