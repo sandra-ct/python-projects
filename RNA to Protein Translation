@@ -58,9 +58,9 @@ def plot_proteins(proteins):
     bars = list(bars)
     plt.bar(bars, all_val)
     plt.xticks(bars)
-    plt.xlabel("Protein / Codon Symbols")
+    plt.xlabel("Amino Acid Symbols")
     plt.ylabel("Number Found in Sequence")
-    plt.title("Protein / Codon Amount in Sequence")
+    plt.title("Amino Acid / Codon Amount in Sequence")
     plt.show()
     
     print(all_val)
